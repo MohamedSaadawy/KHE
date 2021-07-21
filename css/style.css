@@ -1,0 +1,406 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #bfe0c4;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(8, 141, 3);
+  }
+
+body{
+    direction: rtl;
+    font-family: 'Changa', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #ecf0f1;
+}
+:root{
+    --main-color: hsl(131deg 63% 50%);
+}
+.customColor{
+    background-color: var(--main-color);
+    padding: 2px 0 2px 0;
+    font-size: 19px;
+}
+.logoImg{
+    height: 85px;
+    width: auto;
+}
+nav >ul> li > a{
+    margin-right: 10px;
+}
+.changeColorForSumitButton{
+    color: white;
+    margin-right: 1rem;
+}
+@media only screen and (max-width: 891px){
+    .floatingElments{
+        float: right;
+    }
+}
+.CahngeMargin{
+    margin-right: 91px;
+}
+.CahngeMargin > input{
+    width: 273px;
+    border-radius: 34px;
+}
+@media only screen and (max-width: 891px) {
+    .CahngeMargin{
+        margin-right: 10px;
+    }
+    .CahngeMargin > input{
+        float: right;
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .CahngeMargin{
+        margin-right: 10px;
+    }
+    .CahngeMargin > input{
+        float: right;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .CahngeMargin{
+        margin-right: 10px;
+    }
+    .CahngeMargin > input{
+        width: 200px;
+    }
+}
+/* change page padding  */
+.cangePadding{
+    padding-right: 0;
+    padding-left: 0;
+}
+.changeDir{
+    direction: rtl;
+}
+.changePositoin{
+    position: absolute;
+}
+.subHeader{
+    margin: 39px 0 0 0;
+}
+.creatingBorder{
+    background-color: #ccc;
+    height: 1px;
+    width: auto;
+    position: relative;
+    right: 171px;
+    margin-top: 11px;
+}
+.subHeaderDiv{
+    margin-top: 87px;
+}
+.main_image{
+    margin-top: 40px;
+    border-radius: 8px;
+}
+.changeMargin{
+    margin-top: 40px;
+}
+.whiteBackgrund{
+    height: 200px;
+    background: white;
+    margin: 30px 0 30px 0;
+    max-width: 100%;
+    border-radius: 7px;
+    box-shadow: 2px 5px 4px #d0d0d0, -2px -5px 4px #d0d0d0;
+
+}
+.subHeader_2{
+    padding-top: 77px;
+    padding-bottom: 23px;
+    font-weight: 600;
+
+}
+.backgroundCahnge{
+    padding-left: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    padding-top: 25px;
+    position: relative;
+    padding-right: 50px;
+}
+.products{
+    position: absolute;
+    float: right;
+    display: inline
+}
+.productItems{
+    height: 200px;
+    width: 200px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+   .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
+  .changeMargin_2{
+      margin-bottom: 20px;
+  }
+
+  .kideOfProduct{
+      margin-top: 5px;
+      font-weight: 600;
+  }
+  .btn{
+    background: transparent;
+    border: 1px solid #656464;
+    border-radius: 4px;
+    padding: 5px 20px;
+    transition: .2 all  ease-in;
+}
+.btn:hover{
+    background-color: #656464;
+    color: white;
+    font-weight: 600;
+}
+.borderChanger{
+    border-radius: 4px;
+}
+.fristPrice{
+    font-size: 15px;
+    font-weight: 700;
+    color: #545454;
+
+}
+.lastPrice{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ff0000;
+}
+.footer{
+    background-color: var(--main-color);
+    padding: 26px 24px;
+    text-align: center;
+    height: auto;
+}
+.socialLinks > img{
+    height: 41px;
+
+}
+.frist{
+    margin-left: 80px;
+
+
+}
+.secound{
+    margin-left: 80px;
+
+}
+.information{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+/* contact page */
+header {
+    height: 200px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    background: #001a09;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.219)), url("../img/cover-2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.219), rgba(0, 0, 0, 0.219)), url("../img/cover-2.jpg");
+    /* The least supported option. */
+    border-radius: 2px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+   object-fit: cover;
+}
+.theFristH{
+    color: white;
+}
+.hero-header-text{
+    position: relative;
+    top: 100px;
+}
+.changeColor_3{
+    color: hsl(131deg 72% 38%);
+}
+.headerInformation{
+    position: relative;
+    top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.headerInformation > h3{
+    font-weight: 600;
+}
+.headerInformation > p>a{
+    color: hsl(131deg 72% 38%);
+    font-weight: 600;
+}
+.description_0{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 218.5px;
+}
+.positonIT{
+    margin: 30px 0 30px 0;
+    padding-bottom:20px ;
+}
+.products_1{
+    /* height: 200px;
+    width: 100%; */
+    max-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 0 10px 0;
+    box-shadow: 2px 5px 4px #dad8d8;
+    border-radius: 5px;
+}
+.paymentButton{
+    text-align: center;
+    padding: 12px 16px ;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: transparent;
+    transition: .2s all ease-in;
+    margin-bottom: 23px;
+}
+.paymentButton:hover{
+    background-color: #001a09;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+}
+.productInformation_99{
+    margin-bottom: 6px !important;
+}
+.backColor{
+    text-align: center;
+    background-color: var(--main-color);
+    color: white;
+    width: 100%;
+    max-width: 100%;
+}
+.navContainer{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+
+}
+.nav-item{
+    display: inline-block;
+}
+.nav-item>a{
+    color: #fff;
+}
+.sitted{
+    margin-right: 57px;
+}
+.active-G >a{
+    color: #e0ffe6;
+}
+@media only screen and (max-width: 1065px){
+    .navContainer{
+        display: none;
+    }
+}
+.container_2{
+    background-color: #fff;
+    color: #000;
+    margin: 15px 0px 15px 0;
+    border-radius: 7px;
+    /* box-shadow: 4px 7px 4px #dedede; */
+    padding: 12px;
+}
+.info{
+    padding-top: 23px;
+}
+.info{
+    list-style-type: circle;
+    font-size: 20px;
+}
+.buy-btn{
+    text-align: right;
+    border: 1px solid #ccc;
+    float: right;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--main-color);
+    transition: .3s ease-out;
+    margin-top: 10px;
+}
+.buy-btn:hover{
+    background-color: hsl(131deg 61% 40%);
+    cursor: pointer;
+    color: white;
+    /* font-weight: ; */
+}
+.youtube-vedio{
+    text-align: right;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    youTubeVid {
+     width: 300px !important;
+    }
+  }
+  .theDisplay_2{
+      display: none;
+  }
+  .makeItVis{
+      display: block;
+  }
+  
